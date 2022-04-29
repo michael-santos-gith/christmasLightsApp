@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 15px;
+}
+
+#container .ball, #red, #orange, #yellow, #green, #light-blue, #blue, #purple {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#container .ball #red {
+    background-color: #f85a49;
+}
+
+#container .ball #orange {
+    background-color: #f26b24;
+}
+
+#container .ball #yellow {
+    background-color: #F0CE3F;
+}
+
+#container .ball #green {
+    background-color: #078546;
+}
+
+#container .ball #light-blue {
+    background-color: #489CDF;
+}
+
+#container .ball #blue {
+    background-color: #1A33A4;
+}
+
+#container .ball #purple {
+    background-color: #762668;
+}
