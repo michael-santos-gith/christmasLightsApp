@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #19151A;
+}
+
 #container {
     display: flex;
     justify-content: space-around;
@@ -14,32 +18,168 @@
     width: 35px;
     height: 35px;
     border-radius: 50%;
+    padding-top: 10px;
+    animation-duration: 1.1s;
+    animation-iteration-count: infinite;
 }
 
 #container .ball #red {
     background-color: #f85a49;
+    animation-name: lightcolor-one;
+}
+
+@keyframes lightcolor-one {
+  0% {
+    box-shadow: 0 1px 10px 5px #f85a49;
+  }
+  25% {
+    box-shadow: 0 1px 15px 5px #f85a49;
+  }
+  50% {
+    box-shadow: 0 1px 20px 5px #f85a49;
+  }
+  75% {
+    box-shadow: 0 1px 25px 5px #f85a49;
+  }
+  100% {
+    box-shadow: none;
+  }
 }
 
 #container .ball #orange {
     background-color: #f26b24;
+    animation-name: lightcolor-two;
+}
+
+@keyframes lightcolor-two {
+  0% {
+    box-shadow: 0 1px 10px 5px #f26b24;
+  }
+  25% {
+    box-shadow: 0 1px 15px 5px #f26b24;
+  }
+  50% {
+    box-shadow: 0 1px 20px 5px #f26b24;
+  }
+  75% {
+    box-shadow: 0 1px 25px 5px #f26b24;
+  }
+  100% {
+    box-shadow: none;
+  }
 }
 
 #container .ball #yellow {
     background-color: #F0CE3F;
+    animation-name: lightcolor-three;
+}
+
+@keyframes lightcolor-three {
+  0% {
+    box-shadow: 0 1px 10px 5px #F0CE3F;
+  }
+  25% {
+    box-shadow: 0 1px 15px 5px #F0CE3F;
+  }
+  50% {
+    box-shadow: 0 1px 20px 5px #F0CE3F;
+  }
+  75% {
+    box-shadow: 0 1px 25px 5px #F0CE3F;
+  }
+  100% {
+    box-shadow: none;
+  }
 }
 
 #container .ball #green {
     background-color: #078546;
+    animation-name: lightcolor-four;
+}
+
+@keyframes lightcolor-four {
+  0% {
+    box-shadow: 0 1px 10px 5px #078546;
+  }
+  25% {
+    box-shadow: 0 1px 15px 5px #078546;
+  }
+  50% {
+    box-shadow: 0 1px 20px 5px #078546;
+  }
+  75% {
+    box-shadow: 0 1px 25px 5px #078546;
+  }
+  100% {
+    box-shadow: none;
+  }
 }
 
 #container .ball #light-blue {
     background-color: #489CDF;
+    animation-name: lightcolor-five;
+}
+
+@keyframes lightcolor-five {
+  0% {
+    box-shadow: 0 1px 10px 5px #489CDF;
+  }
+  25% {
+    box-shadow: 0 1px 15px 5px #489CDF;
+  }
+  50% {
+    box-shadow: 0 1px 20px 5px #489CDF;
+  }
+  75% {
+    box-shadow: 0 1px 25px 5px #489CDF;
+  }
+  100% {
+    box-shadow: none;
+  }
 }
 
 #container .ball #blue {
     background-color: #1A33A4;
+    animation-name: lightcolor-six;
+}
+
+@keyframes lightcolor-six {
+  0% {
+    box-shadow: 0 1px 10px 5px #1A33A4;
+  }
+  25% {
+    box-shadow: 0 1px 15px 5px #1A33A4;
+  }
+  50% {
+    box-shadow: 0 1px 20px 5px #1A33A4;
+  }
+  75% {
+    box-shadow: 0 1px 25px 5px #1A33A4;
+  }
+  100% {
+    box-shadow: none;
+  }
 }
 
 #container .ball #purple {
     background-color: #762668;
+    animation-name: lightcolor-seven;
+}
+
+@keyframes lightcolor-seven {
+  0% {
+    box-shadow: 0 1px 10px 5px #762668;
+  }
+  25% {
+    box-shadow: 0 1px 15px 5px #762668;
+  }
+  50% {
+    box-shadow: 0 1px 20px 5px #762668;
+  }
+  75% {
+    box-shadow: 0 1px 25px 5px #762668;
+  }
+  100% {
+    box-shadow: none;
+  }
 }
