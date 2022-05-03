@@ -11,7 +11,29 @@ body {
 #container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 0px 15px;
+}
+
+#settings {
+  width: 100%;
+  margin-top: 70px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+}
+
+#settings h2 {
+  margin-bottom: 10px;
+}
+
+#settings button {
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color: #f5deb3;
+  color: #aaa;
+  font-weight: 900;
 }
 
 #container .ball, #red, #orange, #yellow, #green, #light-blue, #blue, #purple {
