@@ -37,6 +37,13 @@ body {
   font-weight: 900;
 }
 
+#settings button:hover {
+  border: 1px solid #ccc;
+  background-color: #aaa;
+  color: #f5deb3;
+  cursor: pointer;
+}
+
 #container .ball, #red, #orange, #yellow, #green, #light-blue, #blue, #purple {
     width: 35px;
     height: 35px;
