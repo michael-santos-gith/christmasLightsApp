@@ -1,5 +1,6 @@
 let balls = document.querySelectorAll('.ball');
 let buttons = document.querySelectorAll('button');
+let intervalNumber = document.querySelector('#interval-number');
 
 buttons.forEach((currentValue, index) => {
     if (index == 0) {
@@ -23,4 +24,14 @@ buttons.forEach((currentValue, index) => {
             balls[6].firstChild.style.animationName = 'light-off';
         })
     }
+})
+
+intervalNumber.addEventListener('keyup', () => {
+    balls[0].firstChild.style.animationDuration = intervalNumber.value + 's';
+    balls[1].firstChild.style.animationDuration = intervalNumber.value + 's';
+    balls[2].firstChild.style.animationDuration = intervalNumber.value + 's';
+    balls[3].firstChild.style.animationDuration = intervalNumber.value + 's';
+    balls[4].firstChild.style.animationDuration = intervalNumber.value + 's';
+    balls[5].firstChild.style.animationDuration = intervalNumber.value + 's';
+    balls[6].firstChild.style.animationDuration = intervalNumber.value + 's';
 })
