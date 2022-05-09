@@ -61,6 +61,14 @@ body {
   cursor: pointer;
 }
 
+#interval {
+  margin-top: 5px;
+}
+
+#interval input {
+  max-width: 40px;
+}
+
 #container .ball, #red, #orange, #yellow, #green, #light-blue, #blue, #purple {
     width: 35px;
     height: 35px;
