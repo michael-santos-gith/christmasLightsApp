@@ -48,8 +48,8 @@ body {
   padding: 10px;
   margin-left: 10px;
   border-radius: 50%;
-  border: 1px solid #ccc;
-  background-color: #f5deb3;
+  border: 1px solid #fff;
+  background-color: #000;
   color: #aaa;
   font-weight: 900;
 }
@@ -77,6 +77,12 @@ body {
   cursor: pointer;
   margin-top: 10px;
   border: 1px solid #000;
+}
+
+#settings #button-toggle:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 #container .ball, #red, #orange, #yellow, #green, #light-blue, #blue, #purple {
