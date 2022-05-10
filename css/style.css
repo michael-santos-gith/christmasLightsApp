@@ -69,6 +69,16 @@ body {
   max-width: 40px;
 }
 
+#settings #button-toggle {
+  max-width: 175px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 0%;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid #000;
+}
+
 #container .ball, #red, #orange, #yellow, #green, #light-blue, #blue, #purple {
   width: 35px;
   height: 35px;
