@@ -8,6 +8,11 @@ body {
   background-color: #19151A;
 }
 
+input[type="color"] {
+  width: 30px;
+  margin-top: 25px;
+}
+
 #container {
   display: flex;
   justify-content: space-around;
@@ -34,7 +39,7 @@ body {
 
 #settings {
   width: 100%;
-  margin-top: 70px;
+  margin-top: 80px;
   padding: 25px 15px;
   border-radius: 5px;
   background-color: #f0f8ff;
