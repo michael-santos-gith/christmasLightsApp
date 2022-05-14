@@ -1,6 +1,7 @@
 let balls = document.querySelectorAll('.ball');
 let buttons = document.querySelectorAll('button');
 let intervalNumber = document.querySelector('#interval-number');
+let pickColor = document.querySelectorAll('input[type="color"]');
 
 buttons.forEach((currentValue, index) => {
     if (index == 0) {

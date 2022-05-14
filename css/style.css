@@ -1,3 +1,17 @@
+:root {
+  --body-color: #19151A;
+  --bulb-color: #222;
+  --settings-color: #f0f8ff;
+  --ball-red: #f85a49;
+  --ball-orange: #f26b24;
+  --ball-yellow: #F0CE3F;
+  --ball-green: #078546;
+  --ball-light-blue: #489CDF;
+  --ball-blue: #1A33A4;
+  --ball-purple: #762668;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +19,7 @@
 }
 
 body {
-  background-color: #19151A;
+  background-color: var(--body-color);
 }
 
 input[type="color"] {
@@ -27,10 +41,10 @@ input[type="color"] {
 .light-bulb::after {
   content: '';
   position: absolute;
-  border: 2px solid #222;
+  border: 2px solid var(--bulb-color);
   width: 10px;
   height: 10px;
-  background: #222;
+  background: var(--bulb-color);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   left: 30%;
@@ -42,7 +56,7 @@ input[type="color"] {
   margin-top: 80px;
   padding: 25px 15px;
   border-radius: 5px;
-  background-color: #f0f8ff;
+  background-color: var(--settings-color);
 }
 
 #settings h2 {
@@ -100,22 +114,22 @@ input[type="color"] {
 }
 
 #container .ball #red {
-    background-color: #f85a49;
+    background-color: var(--ball-red);
     animation-name: lightcolor-one;
 }
 
 @keyframes lightcolor-one {
   0% {
-    box-shadow: 0 1px 10px 5px #f85a49;
+    box-shadow: 0 1px 10px 5px var(--ball-red);
   }
   25% {
-    box-shadow: 0 1px 15px 5px #f85a49;
+    box-shadow: 0 1px 15px 5px var(--ball-red);
   }
   50% {
-    box-shadow: 0 1px 20px 5px #f85a49;
+    box-shadow: 0 1px 20px 5px var(--ball-red);
   }
   75% {
-    box-shadow: 0 1px 25px 5px #f85a49;
+    box-shadow: 0 1px 25px 5px var(--ball-red);
   }
   100% {
     box-shadow: none;
@@ -123,22 +137,22 @@ input[type="color"] {
 }
 
 #container .ball #orange {
-    background-color: #f26b24;
+    background-color: var(--ball-orange);
     animation-name: lightcolor-two;
 }
 
 @keyframes lightcolor-two {
   0% {
-    box-shadow: 0 1px 10px 5px #f26b24;
+    box-shadow: 0 1px 10px 5px var(--ball-orange);
   }
   25% {
-    box-shadow: 0 1px 15px 5px #f26b24;
+    box-shadow: 0 1px 15px 5px var(--ball-orange);
   }
   50% {
-    box-shadow: 0 1px 20px 5px #f26b24;
+    box-shadow: 0 1px 20px 5px var(--ball-orange);
   }
   75% {
-    box-shadow: 0 1px 25px 5px #f26b24;
+    box-shadow: 0 1px 25px 5px var(--ball-orange);
   }
   100% {
     box-shadow: none;
@@ -146,22 +160,22 @@ input[type="color"] {
 }
 
 #container .ball #yellow {
-    background-color: #F0CE3F;
+    background-color: var(--ball-yellow);
     animation-name: lightcolor-three;
 }
 
 @keyframes lightcolor-three {
   0% {
-    box-shadow: 0 1px 10px 5px #F0CE3F;
+    box-shadow: 0 1px 10px 5px var(--ball-yellow);
   }
   25% {
-    box-shadow: 0 1px 15px 5px #F0CE3F;
+    box-shadow: 0 1px 15px 5px var(--ball-yellow);
   }
   50% {
-    box-shadow: 0 1px 20px 5px #F0CE3F;
+    box-shadow: 0 1px 20px 5px var(--ball-yellow);
   }
   75% {
-    box-shadow: 0 1px 25px 5px #F0CE3F;
+    box-shadow: 0 1px 25px 5px var(--ball-yellow);
   }
   100% {
     box-shadow: none;
@@ -169,22 +183,22 @@ input[type="color"] {
 }
 
 #container .ball #green {
-    background-color: #078546;
+    background-color: var(--ball-green);
     animation-name: lightcolor-four;
 }
 
 @keyframes lightcolor-four {
   0% {
-    box-shadow: 0 1px 10px 5px #078546;
+    box-shadow: 0 1px 10px 5px var(--ball-green);
   }
   25% {
-    box-shadow: 0 1px 15px 5px #078546;
+    box-shadow: 0 1px 15px 5px var(--ball-green);
   }
   50% {
-    box-shadow: 0 1px 20px 5px #078546;
+    box-shadow: 0 1px 20px 5px var(--ball-green);
   }
   75% {
-    box-shadow: 0 1px 25px 5px #078546;
+    box-shadow: 0 1px 25px 5px var(--ball-green);
   }
   100% {
     box-shadow: none;
@@ -192,22 +206,22 @@ input[type="color"] {
 }
 
 #container .ball #light-blue {
-    background-color: #489CDF;
+    background-color: var(--ball-light-blue);
     animation-name: lightcolor-five;
 }
 
 @keyframes lightcolor-five {
   0% {
-    box-shadow: 0 1px 10px 5px #489CDF;
+    box-shadow: 0 1px 10px 5px var(--ball-light-blue);
   }
   25% {
-    box-shadow: 0 1px 15px 5px #489CDF;
+    box-shadow: 0 1px 15px 5px var(--ball-light-blue);
   }
   50% {
-    box-shadow: 0 1px 20px 5px #489CDF;
+    box-shadow: 0 1px 20px 5px var(--ball-light-blue);
   }
   75% {
-    box-shadow: 0 1px 25px 5px #489CDF;
+    box-shadow: 0 1px 25px 5px var(--ball-light-blue);
   }
   100% {
     box-shadow: none;
@@ -215,22 +229,22 @@ input[type="color"] {
 }
 
 #container .ball #blue {
-    background-color: #1A33A4;
+    background-color: var(--ball-blue);
     animation-name: lightcolor-six;
 }
 
 @keyframes lightcolor-six {
   0% {
-    box-shadow: 0 1px 10px 5px #1A33A4;
+    box-shadow: 0 1px 10px 5px var(--ball-blue);
   }
   25% {
-    box-shadow: 0 1px 15px 5px #1A33A4;
+    box-shadow: 0 1px 15px 5px var(--ball-blue);
   }
   50% {
-    box-shadow: 0 1px 20px 5px #1A33A4;
+    box-shadow: 0 1px 20px 5px var(--ball-blue);
   }
   75% {
-    box-shadow: 0 1px 25px 5px #1A33A4;
+    box-shadow: 0 1px 25px 5px var(--ball-blue);
   }
   100% {
     box-shadow: none;
@@ -238,22 +252,22 @@ input[type="color"] {
 }
 
 #container .ball #purple {
-    background-color: #762668;
+    background-color: var(--ball-purple);
     animation-name: lightcolor-seven;
 }
 
 @keyframes lightcolor-seven {
   0% {
-    box-shadow: 0 1px 10px 5px #762668;
+    box-shadow: 0 1px 10px 5px var(--ball-purple);
   }
   25% {
-    box-shadow: 0 1px 15px 5px #762668;
+    box-shadow: 0 1px 15px 5px var(--ball-purple);
   }
   50% {
-    box-shadow: 0 1px 20px 5px #762668;
+    box-shadow: 0 1px 20px 5px var(--ball-purple);
   }
   75% {
-    box-shadow: 0 1px 25px 5px #762668;
+    box-shadow: 0 1px 25px 5px var(--ball-purple);
   }
   100% {
     box-shadow: none;
