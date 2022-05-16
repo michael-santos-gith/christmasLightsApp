@@ -290,3 +290,30 @@ input[type="color"] {
     box-shadow: none;
   }
 }
+
+@media (min-width: 768px) {
+  #container {
+    margin: 0 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .light-bulb::after {
+    width: 20px;
+    height: 11px;
+  }
+
+  #container .ball, #red, #orange, #yellow, #green, #light-blue, #blue, #purple {
+    width: 70px;
+    height: 70px;
+  }
+
+  input[type="color"] {
+    width: 78px;
+    margin-top: 30px;
+  }
+
+  #settings {
+    margin-top: 86px;
+  }
+}
