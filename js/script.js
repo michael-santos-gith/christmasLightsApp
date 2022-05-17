@@ -2,6 +2,8 @@ let balls = document.querySelectorAll('.ball');
 let buttons = document.querySelectorAll('button');
 let intervalNumber = document.querySelector('#interval-number');
 let pickColor = document.querySelectorAll('input[type="color"]');
+let toggleButton = document.querySelector('#button-toggle');
+let hidden = "visible";
 
 buttons.forEach((currentValue, index) => {
     if (index == 0) {
@@ -75,3 +77,17 @@ pickColor.forEach((currentValue, index) => {
         });
     }
 });
+
+toggleButton.addEventListener('click', () => {
+    if (hidden == "visible") {
+        pickColor.forEach(element => {
+            hidden = "hidden";
+            element.style.visibility = hidden;
+        })
+    } else {
+        hidden = "visible";
+        pickColor.forEach(element => {
+            element.style.visibility = hidden;
+        })
+    }
+})
